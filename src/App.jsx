@@ -19,7 +19,7 @@ export const App = () => {
       <NormalizeStyle />
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.key}>
-          <Route exact path="/" element={loading ? <Loader /> : <Home />} />
+          <Route exact path="/portfolioo" element={loading ? <Loader /> : <Home />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </AnimatePresence>
