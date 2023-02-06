@@ -1,0 +1,48 @@
+.contact-btn {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  right: 200px;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+  border-top: 1px solid transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../assets/Images/photoportfolio.png);
+}
+@media screen and (max-width: 884px) {
+  .contact-btn {
+    background-image: url(../../assets/Images/photoportfolio.png);
+    background-size: 300px 300px;
+    right: 80px;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 664px) {
+  .contact-btn {
+    background-image: url(../../assets/Images/photoportfolio.png);
+    background-size: 250px 250px;
+    right: 0;
+    width: 250px;
+    height: 250px;
+  }
+}
+.contact-btn h3 {
+  opacity: 0%;
+  font-size: 5em;
+}
+
+.contact-btn a {
+  text-decoration: none;
+  color: rgba(255, 254, 210, 0.575);
+  font-size: clamp(13px, 10px + 2vw, 27px);
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+.contact-btn a:hover {
+  color: white;
+}

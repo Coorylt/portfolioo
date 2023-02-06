@@ -1,0 +1,20 @@
+.intro-text {
+
+  position: relative;
+  color: rgb(255, 255, 255);
+  line-height: 25px;
+  letter-spacing: 1px;
+  margin-top: 0px;
+  font-size: clamp(11.5px, 5px + 1.5vw, 18px);
+  padding: 3px;
+}
+@media screen and (max-width: 580px) {
+  .intro-text {
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .intro-text {
+    line-height: 16px;
+  }
+}
