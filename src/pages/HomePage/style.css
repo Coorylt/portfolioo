@@ -227,8 +227,13 @@ to {
       margin-top: 22em;
 
     }
+}
 
-
+@media screen and (max-width: 800px) {
+  .link__svg{
+    position: relative;
+    right: 2em ;
+  }
 
 
 }
